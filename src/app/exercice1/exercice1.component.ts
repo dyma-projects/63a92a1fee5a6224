@@ -11,4 +11,8 @@ export class Exercice1Component implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  eventFromChild(n: number) {
+    this.result = n;
+  }
 }
